@@ -1,6 +1,7 @@
 import openai as ia
-
-ia.api_key = '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'
+#entre nesse site(https://platform.openai.com/account/api-keys) e crie sua chave secreta,
+#ao criar, copie e cole abaixo.
+ia.api_key = ''
 request = input('Descreva a imagem a ser gerada: ')
 text = "Mulher/Homem mais lindo do mundo"
 #coloca o link da foto abaixo:
